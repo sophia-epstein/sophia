@@ -1,0 +1,41 @@
+title: Sophia Epstein
+tagline: Features Writer
+description: >-
+  Sophia Epstein is a freelance features writer specialising in technology,
+  business strategy, and innovation. Her work appears in Wired UK, BBC Worklife,
+  GQ, Contagious, and Weapons of Reason.
+url: "https://sophiaepstein.com"
+baseurl: ""
+
+author:
+  name: Sophia Epstein
+  email: sophia.epstein@gmail.com
+  linkedin: "https://www.linkedin.com/in/sophia-epstein"
+
+collections:
+  articles:
+    output: false
+  copywriting:
+    output: false
+  magazine:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - README.md
+  - vendor/
+
+sass:
+  style: compressed

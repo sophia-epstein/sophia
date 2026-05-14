@@ -1,0 +1,43 @@
+# Sophia Epstein — Journalism Portfolio
+
+> Sophia Epstein is a freelance features writer specialising in technology and business
+> strategy. She writes about how innovation, technology, and business intersect — covering
+> AI, the future of work, sustainability, and creative entrepreneurship.
+>
+> Her work has appeared in Wired UK, BBC Worklife, GQ, Contagious, and Weapons of Reason.
+> She also produces brand journalism and editorial partnerships for companies including
+> Polestar, L'Oréal, SAP, and Salesforce.
+
+## About
+
+Sophia Epstein is a journalist based in the UK. She specialises in long-form features and
+reported essays, with a focus on technology, AI, business strategy, and sustainability.
+She is particularly interested in ideas that challenge convention or apply academic theory
+in unexpected real-world contexts.
+
+## Selected Articles
+
+- "How Do You Control an AI as Powerful as OpenAI's GPT-3?" — Wired UK (2020)
+- "Dynamic Data Is the Key to Gaining an AI Accuracy Boost" — Wired UK (2022)
+- "Google Staff Squirm as Remote Workers Face Pay Cuts" — Wired UK (2022)
+- "The Hidden Age Discrimination Lurking in Your CV" — BBC Worklife (2023)
+- "Agriculture Robots: How Farming Is Going Automated" — Wired UK (2015)
+- "I Made £8,000 by Sculpting Boobs During Lockdown" — Wired UK (2021)
+- "Bloody Risky" — Contagious (2018)
+- "The Supply Chain Transparency Illusion" — Weapons of Reason (2019)
+
+## Copywriting & Brand Journalism
+
+Sophia produces high-performing editorial partnerships and branded content, including:
+- Polestar (sustainability advertorial, 558% above average dwell-time benchmark)
+- L'Oréal & UNESCO For Women in Science
+- SAP (circular economy video)
+- Salesforce Trailhead (three-part learning series)
+- Cannes Lions 2022 (live editorial coverage)
+
+## Pages
+
+- [Home](https://sophiaepstein.com/)
+- [About](https://sophiaepstein.com/about/)
+- [Contact](https://sophiaepstein.com/contact/)
+- [LinkedIn](https://www.linkedin.com/in/sophia-epstein)

@@ -1,0 +1,49 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sophia Epstein",
+  "jobTitle": "Freelance Features Writer",
+  "description": "{{ site.description | strip_newlines }}",
+  "url": "{{ site.url }}",
+  "email": "{{ site.author.email }}",
+  "sameAs": [
+    "{{ site.author.linkedin }}"
+  ],
+  "knowsAbout": [
+    "Technology journalism",
+    "Business strategy",
+    "Artificial intelligence",
+    "Sustainability and circular economy",
+    "Innovation",
+    "Remote work and future of work",
+    "Business journalism"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "description": "Journalist at Wired UK, BBC Worklife, GQ, Contagious, Weapons of Reason"
+    }
+  ],
+  "worksFor": [
+    {"@type": "Organization", "name": "Wired UK", "url": "https://wired.co.uk"},
+    {"@type": "Organization", "name": "BBC Worklife", "url": "https://bbc.com/worklife"},
+    {"@type": "Organization", "name": "GQ", "url": "https://gq.com"},
+    {"@type": "Organization", "name": "Contagious"},
+    {"@type": "Organization", "name": "Weapons of Reason"}
+  ]
+}
+</script>
+{% if page.layout == 'article' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "author": {"@type": "Person", "name": "Sophia Epstein"},
+  "publisher": {"@type": "Organization", "name": "{{ page.publication }}"},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "description": "{{ page.description }}"
+}
+</script>
+{% endif %}

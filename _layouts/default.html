@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+  {% include structured-data.html %}
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="{{ '/' | relative_url }}" class="site-name-block">
+      <span class="site-name">{{ site.title }}</span>
+      <span class="site-tagline">{{ site.tagline }}</span>
+    </a>
+    <time class="site-clock" id="clock" aria-live="off" aria-label="Current time"></time>
+  </header>
+
+  {{ content }}
+
+  <div class="panel-overlay" id="panel-overlay" aria-hidden="true"></div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Spread image">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close image">×</button>
+    <img src="" alt="" id="lightbox-img" />
+  </div>
+
+  <script src="{{ '/assets/js/desktop.js' | relative_url }}"></script>
+</body>
+</html>
